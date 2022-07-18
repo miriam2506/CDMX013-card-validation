@@ -11,44 +11,52 @@
 
 ***
 
-## 1. Preámbulo
+Proyecto
 
-El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
-también llamado algoritmo de módulo 10, es un método de suma de verificación,
-se utiliza para validar números de identificación; tales como el IMEI de los
-celulares, tarjetas de crédito, etc.
+![LOGO](https://user-images.githubusercontent.com/108847679/179627535-404f85fe-59dd-40fe-a748-a489478d895b.png)
 
-Este algoritmo es simple. Obtenemos la reversa del número a verificar (que
-solamente contiene dígitos [0-9]); a todos los números que ocupan una posición
-par se les debe multiplicar por dos, si este número es mayor o igual a 10,
-debemos sumar los dígitos del resultado; el número a verificar será válido si
-la suma de sus dígitos finales es un múltiplo de 10.
+El proyecto para validar una tarjeta de crédito, va enfocado en una página web
+la cual es un albergue de animales, en el cual puedes hacer donaciones.
 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+Se implementa el algoritmo de Luhn y se implementa funcionalidad de ocultar
+todos los dígitos de una tarjeta menos los últimos cuatro.
 
-## 2. Resumen del proyecto
+Interfaz de usuario
+
+Es una página en dónde si le das click en donar, te lleva a la página en la cual
+da la opción para seleccionar el banco, introducir los datos de la tarjeta y
+al presionar DONAR, se valida la tarjeta indicandote si la donación ha sido exitosa
+o la tarjeta fue rechazada.
+
+Prototipo
+Se realizó primero un prototipo en papel y posteriormente se maquetó en FIGMA
+lo cual nos permitió tener una imagen más real de lo que se estaba buscando en
+cuestión de colores, tamaños de los elementos, etc.
 
 
-![DONAR](https://user-images.githubusercontent.com/108847679/179623401-9bdd88aa-7607-4ab8-96d7-0cc2c7706783.jpg)
+Usuario
+Las personas que están interesadas en las mascotas, ayudar a los albergues o contribuir 
+de alguna manera con ellos. 
+
+¿Qué problema resuelve?
+Para los albergues de animales, es muy difícil tener los recursos para dar mantenimiento al mismo, 
+así como tener el personal para ir a recaudar fondos para el mismo objetivo.
+
+La página ayuda a dar a conocer la labor que se hace en el albergue, mostrarle a las 
+personas las condiciones de los animales, y hacerles la invitación a actividades para
+que conozcan el lugar y les genere más confianza en caso de que quieran apoyar.
+
+También informa a dónde van los recursos y sobre otro tipo de donaciones que pueden
+hacer para que el albergue pueda seguir en pie ayudando a más animalitos.
+
+![DONAR](https://user-images.githubusercontent.com/108847679/179628029-55da1142-33f5-4912-a00a-4dd916a77092.jpg)
 
 
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
-los últimos cuatro.
+![DONACIÓN FINALIZADA](https://user-images.githubusercontent.com/108847679/179628060-3827cab6-7cfd-4240-8628-5c62accb8fde.jpg)
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
 
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
+![TARJETA RECHAZADA](https://user-images.githubusercontent.com/108847679/179628073-dd9d4934-b2af-4fb1-8be3-eb282edae9cd.jpg)
 
-## 3. Objetivos de aprendizaje
-
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
 ### HTML
 
