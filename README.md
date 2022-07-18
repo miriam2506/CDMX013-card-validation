@@ -11,34 +11,32 @@
 
 ***
 
-Proyecto
+##Proyecto
 
 ![LOGO](https://user-images.githubusercontent.com/108847679/179627535-404f85fe-59dd-40fe-a748-a489478d895b.png)
 
+
 El proyecto para validar una tarjeta de crédito, va enfocado en una página web
-la cual es un albergue de animales, en el cual puedes hacer donaciones.
+la cual es un albergue de animales, en el que se puede contribuir a través de 
+donaciones. 
 
-Se implementa el algoritmo de Luhn y se implementa funcionalidad de ocultar
-todos los dígitos de una tarjeta menos los últimos cuatro.
+Cuando el ususario decide DONAR, se abre la pantalla para que valide la tarjeta, 
+es ahí que se utiliza el algoritmo de Luhn y se implementa funcionalidad de ocultar
+todos los dígitos de una tarjeta menos los últimos cuatro, así como alertar si 
+se procedió a la donación o no.
 
-Interfaz de usuario
+##Prototipo
 
-Es una página en dónde si le das click en donar, te lleva a la página en la cual
-da la opción para seleccionar el banco, introducir los datos de la tarjeta y
-al presionar DONAR, se valida la tarjeta indicandote si la donación ha sido exitosa
-o la tarjeta fue rechazada.
-
-Prototipo
 Se realizó primero un prototipo en papel y posteriormente se maquetó en FIGMA
 lo cual nos permitió tener una imagen más real de lo que se estaba buscando en
 cuestión de colores, tamaños de los elementos, etc.
 
 
-Usuario
+##Usuario
 Las personas que están interesadas en las mascotas, ayudar a los albergues o contribuir 
 de alguna manera con ellos. 
 
-¿Qué problema resuelve?
+##¿Qué problema resuelve?
 Para los albergues de animales, es muy difícil tener los recursos para dar mantenimiento al mismo, 
 así como tener el personal para ir a recaudar fondos para el mismo objetivo.
 
@@ -56,6 +54,26 @@ hacer para que el albergue pueda seguir en pie ayudando a más animalitos.
 
 
 ![TARJETA RECHAZADA](https://user-images.githubusercontent.com/108847679/179628073-dd9d4934-b2af-4fb1-8be3-eb282edae9cd.jpg)
+
+
+
+##Interfaz de usuario
+
+La página funciona de la siguiente manera:
+
+Una vez que el usuario da click en el menú DONAR, aparece la pantalla para la 
+validación de tarjeta,
+
+El usuario podrá elegir de que Banco es
+Deberá introducir los 16 dígitos (se muestran sólo los últimos 4 en la pantalla), 
+así como el nombre del titular de la tarjeta, la vigencia de la misma y el código 
+de seguridad.
+
+Una vez que el usuario da click en DONAR, se validarán los datos y posteriormente
+le mostrará en la pantalla DONACIÓN EXITOSA o TARJETA RECHAZADA, depende de cual 
+sea el caso.
+
+
 
 
 ### HTML
