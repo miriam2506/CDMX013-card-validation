@@ -28,7 +28,8 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ## 2. Resumen del proyecto
 
-(https://user-images.githubusercontent.com/108847679/179622893-25fb9289-6691-479a-8566-343aa44715a8.jpg)
+
+![DONAR](https://user-images.githubusercontent.com/108847679/179623401-9bdd88aa-7607-4ab8-96d7-0cc2c7706783.jpg)
 
 
 En este proyecto tendrás que construir una aplicación web que le permita a un
