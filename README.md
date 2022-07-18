@@ -28,6 +28,9 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ## 2. Resumen del proyecto
 
+(https://user-images.githubusercontent.com/108847679/179622893-25fb9289-6691-479a-8566-343aa44715a8.jpg)
+
+
 En este proyecto tendrás que construir una aplicación web que le permita a un
 usuario validar el número de una tarjeta de crédito. Además, tendrás que
 implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
