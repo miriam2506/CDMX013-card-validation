@@ -2,60 +2,50 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [1. Proyecto](#1-Proyecto)
+* [2. Prototipo](#2-prototipo)
+* [3. Público Objetivo](#3-usuario)
+* [4. ¿Qué problema resuelve?](#4-¿Qué problema resuelve)
+* [5. Interfaz](#5-Interfaz)
 * [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ***
 
-## Proyecto
+## 1-Proyecto
 
 ![LOGO](https://user-images.githubusercontent.com/108847679/179627535-404f85fe-59dd-40fe-a748-a489478d895b.png)
 
-
-El proyecto para validar una tarjeta de crédito, va enfocado en una página web
-la cual es un albergue de animales, en el que se puede contribuir a través de 
+El proyecto para validar una tarjeta de crédito va enfocado en una página web,
+la cual es un albergue de animales en el que se puede contribuir a través de 
 donaciones. 
 
-Cuando el ususario decide DONAR, se abre la pantalla para que valide la tarjeta, 
-es ahí que se utiliza el algoritmo de Luhn y se implementa funcionalidad de ocultar
+Cuando el ususario decide DONAR se abre la pantalla para que valide la tarjeta, 
+es ahí que se utiliza el algoritmo de Luhn y se implementa la funcionalidad de ocultar
 todos los dígitos de una tarjeta menos los últimos cuatro, así como alertar si 
-se procedió a la donación o no.
+la donación fue exitosa o no.
 
-## Prototipo
+## 2-Prototipo
 
 Se realizó primero un prototipo en papel y posteriormente se maquetó en FIGMA
-lo cual nos permitió tener una imagen más real de lo que se estaba buscando en
+lo cual permitió tener una imagen más real de lo que se estaba buscando en
 cuestión de colores, tamaños de los elementos, etc.
 
+![DONAR](https://user-images.githubusercontent.com/108847679/179628029-55da1142-33f5-4912-a00a-4dd916a77092.jpg)
 
-## Usuario
+## 3-Usuario
 Las personas que están interesadas en las mascotas, ayudar a los albergues o contribuir 
 de alguna manera con ellos. 
 
-## ¿Qué problema resuelve?
-Para los albergues de animales, es muy difícil tener los recursos para dar mantenimiento al mismo, 
-así como tener el personal para ir a recaudar fondos para el mismo objetivo.
+## 4-¿Qué problema resuelve?
+Para los albergues de animales, es muy difícil tener los recursos para darle mantenimiento, 
+así como tener el personal para ir a recaudar fondos que ayudan a solventar diversos gastos.
 
 La página ayuda a dar a conocer la labor que se hace en el albergue, mostrarle a las 
 personas las condiciones de los animales, y hacerles la invitación a actividades para
 que conozcan el lugar y les genere más confianza en caso de que quieran apoyar.
 
-También informa a dónde van los recursos y sobre otro tipo de donaciones que pueden
+También informa a donde van los recursos y sobre otro tipo de donaciones que pueden
 hacer para que el albergue pueda seguir en pie ayudando a más animalitos.
-
-![DONAR](https://user-images.githubusercontent.com/108847679/179628029-55da1142-33f5-4912-a00a-4dd916a77092.jpg)
-
-
-![DONACIÓN FINALIZADA](https://user-images.githubusercontent.com/108847679/179628060-3827cab6-7cfd-4240-8628-5c62accb8fde.jpg)
-
-
-![TARJETA RECHAZADA](https://user-images.githubusercontent.com/108847679/179628073-dd9d4934-b2af-4fb1-8be3-eb282edae9cd.jpg)
-
-
 
 ## Interfaz de usuario
 
@@ -64,15 +54,18 @@ La página funciona de la siguiente manera:
 Una vez que el usuario da click en el menú DONAR, aparece la pantalla para la 
 validación de tarjeta,
 
-El usuario podrá elegir de que Banco es
-Deberá introducir los 16 dígitos (se muestran sólo los últimos 4 en la pantalla), 
-así como el nombre del titular de la tarjeta, la vigencia de la misma y el código 
-de seguridad.
+El usuario podrá elegir de que Banco es, deberá introducir los 16 dígitos 
+(se muestran sólo los últimos 4 en la pantalla), así como el nombre del titular 
+de la tarjeta, la vigencia de la misma y el código de seguridad.
 
 Una vez que el usuario da click en DONAR, se validarán los datos y posteriormente
 le mostrará en la pantalla DONACIÓN EXITOSA o TARJETA RECHAZADA, depende de cual 
 sea el caso.
 
+![DONACIÓN FINALIZADA](https://user-images.githubusercontent.com/108847679/179628060-3827cab6-7cfd-4240-8628-5c62accb8fde.jpg)
+
+
+![TARJETA RECHAZADA](https://user-images.githubusercontent.com/108847679/179628073-dd9d4934-b2af-4fb1-8be3-eb282edae9cd.jpg)
 
 
 
