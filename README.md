@@ -11,7 +11,7 @@
 
 ***
 
-##Proyecto
+## Proyecto
 
 ![LOGO](https://user-images.githubusercontent.com/108847679/179627535-404f85fe-59dd-40fe-a748-a489478d895b.png)
 
@@ -25,18 +25,18 @@ es ahí que se utiliza el algoritmo de Luhn y se implementa funcionalidad de ocu
 todos los dígitos de una tarjeta menos los últimos cuatro, así como alertar si 
 se procedió a la donación o no.
 
-##Prototipo
+## Prototipo
 
 Se realizó primero un prototipo en papel y posteriormente se maquetó en FIGMA
 lo cual nos permitió tener una imagen más real de lo que se estaba buscando en
 cuestión de colores, tamaños de los elementos, etc.
 
 
-##Usuario
+## Usuario
 Las personas que están interesadas en las mascotas, ayudar a los albergues o contribuir 
 de alguna manera con ellos. 
 
-##¿Qué problema resuelve?
+## ¿Qué problema resuelve?
 Para los albergues de animales, es muy difícil tener los recursos para dar mantenimiento al mismo, 
 así como tener el personal para ir a recaudar fondos para el mismo objetivo.
 
@@ -57,7 +57,7 @@ hacer para que el albergue pueda seguir en pie ayudando a más animalitos.
 
 
 
-##Interfaz de usuario
+## Interfaz de usuario
 
 La página funciona de la siguiente manera:
 
