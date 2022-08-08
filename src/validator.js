@@ -38,7 +38,7 @@ const validator = {
         else {
            return false;
         }
-     }
+     },
 
     maskify: function (cardNumberInput) {
         if (cardNumberInput.length <= 4) {
@@ -55,10 +55,8 @@ const validator = {
         
         }
     
-
-
     },
 
-},
+};
 
 export default validator;
