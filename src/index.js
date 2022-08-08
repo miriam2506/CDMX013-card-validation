@@ -7,17 +7,15 @@ e.preventDefault()
 
 if (validator.isValid (input.value)===true){
   input.value= validator.maskify(input.value)
-  console.log ("válida")
- document.getElementById('donar').innerHTML = "<span style='color: green;'>'DONACIÓN EXITOSA'</span>";
-//alert ("Válida");
+  document.getElementById('donar').innerHTML = "<span style='color: green;'>'DONACIÓN EXITOSA'</span>";
 }
   else{
-    console.log ("Rechazada")
-     document.getElementById('donar').innerHTML = "<span style='color: red;'>'VUELVE A INTENTARLO'</span>";
-    
-     }
+         document.getElementById('donar').innerHTML = "<span style='color: red;'>'VUELVE A INTENTARLO'</span>";
+         }
    
     });
+
+    
  //alert ("Tarjeta rechazada");
 // input.addEventListener('keyup',function (e){
 //e.preventDefault()
