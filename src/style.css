@@ -1,0 +1,234 @@
+/*general*/
+* {
+  background-image: url(fondo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+
+/*menú*/
+.logo {
+  width: 100%;
+}
+
+
+header {
+  background: rgb(27, 182, 202);
+  width: 100%;
+  box-shadow: 0px 0px 20px rgb(13, 102, 105) inset, 0px 0px 25px rgb(209, 209, 221);
+  display: table;
+}
+
+
+.menu {
+  width: 1300px;
+  margin: auto;
+  font-size: 60px;
+}
+
+
+nav {
+  float: left;
+
+}
+
+
+nav ul li {
+  list-style: none;
+  float: left;
+  padding: 35px 0;
+  background: rgb(27, 182, 202);
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-block-color: rgb(126, 178, 184);
+  border-radius: 20px;
+  cursor: pointer
+}
+
+
+/*texto en perrito*/
+.contenedor {
+
+  padding-left: 45%;
+  max-height: 100%;
+  padding-top: 280px;
+  position: relative;
+  display: inline-block;
+}
+
+
+.texto-encima {
+  position: absolute;
+  display: inline;
+  top: 480px;
+  left: 2200px;
+  font-size: 80px;
+  color: black;
+  text-align: justify;
+}
+
+
+.centrado {
+  background: transparent;
+  position: absolute;
+  display: inline;
+  top: 700px;
+  left: 2180px;
+  font-size: 50px;
+  color: white;
+  text-align: justify;
+}
+
+
+.centrado2 {
+  background: transparent;
+  position: absolute;
+  display: inline;
+  top: 1000px;
+  left: 2180px;
+  font-size: 65px;
+  color: white;
+  text-align: justify;
+}
+
+
+/*validación de tarjeta
+.validacion{
+  background: transparent;
+  position: absolute;
+  display: inline;
+  top: 700px;
+  left:450px;
+}
+
+
+/*datos*/
+.datos {
+  background: transparent;
+  position: absolute;
+  display: inline;
+  top: 600px;
+  left: 30px;
+  font-size: 100px;
+  color: black;
+
+}
+
+
+label {
+  font-size: 70px;
+  color: rgb(0, 0, 0);
+}
+
+
+input {
+
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  cursor: pointer;
+
+}
+
+#donar {
+  box-shadow: 0px 0px 20px rgb(13, 102, 105) inset, 0px 0px 25px rgb(209, 209, 221);
+  position: absolute;
+  top: 14 00px;
+  left: 550px;
+}
+
+#volver {
+  box-shadow: 0px 0px 20px rgb(13, 102, 105) inset, 0px 0px 25px rgb(209, 209, 221);
+  position: absolute;
+  top: 800px;
+  left: 1700px;
+}
+
+#fin {
+  box-shadow: 0px 0px 20px rgb(13, 102, 105) inset, 0px 0px 25px rgb(209, 209, 221);
+  position: absolute;
+  top: 800px;
+  left: 1860px;
+}
+
+
+select {
+  border-radius: 20px;
+  background: white;
+  color: black;
+  font-family: "Amatic SC", cursive;
+  font-family: "Lato", sans-serif;
+  font-size: 60px;
+}
+
+
+button {
+
+
+  box-shadow: 0px 0px 20px rgb(13, 102, 105) inset, 0px 0px 25px rgb(209, 209, 221);
+  background: rgb(27, 182, 202);
+  padding: 20px;
+  border-radius: 60px;
+  color: rgb(252, 255, 255);
+  font-size: 50px;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 0px 0px 20px rgb(13, 102, 105) inset, 0px 0px 25px rgb(209, 209, 221);
+
+  background: rgb(224, 180, 19);
+  color: black;
+
+}
+
+.tarjetas {
+  background: transparent;
+  position: absolute;
+  display: inline;
+  top: 350px;
+  left: 400px;
+  font-size: 100px;
+
+}
+
+.candado {
+  background: transparent;
+  position: absolute;
+  display: inline;
+  top: 150px;
+  left: 600px;
+  font-size: 100px;
+
+}
+
+
+.redes {
+  background: transparent;
+  position: absolute;
+  display: inline;
+  top: -300px;
+  left: -50px;
+  font-size: 100px;
+
+  
+}

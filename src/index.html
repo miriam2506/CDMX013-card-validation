@@ -1,14 +1,108 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+
+<head>
+  <meta charset="utf-8">
+  <title>Validación de tarjeta</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lato:ital@1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lato:ital@1&family=Satisfy&display=swap"
+    rel="stylesheet">
+  <!--<link rel="stylesheet" type="text/css" href="styles.css"/>-->
+</head>
+<body>
+
+ <!-- Aquí empieza la cabecera de la web -->
+  <header>
+    <img class="logo" src="img/logo3.png" />
+    <div class="menu">
+
+      <!-- Menú de la página web, ul (para crear lista no ordenada )/nav (proporciona enlaces de)  -->
+
+      <nav>
+        <ul>
+          <li><a href="#">Conócenos</a></li>
+          <li><a href="#">Adopta</a></li>
+          <li><a href="#">Dona</a></li>
+          <li><a href="#">Actividades</a></li>
+        </ul>
+      </nav>
+ </div>
+</header>
+
+  <!--se pone imagen de perro con el texto de agradecimiento  -->
+  <div class="contenedor">
+    <img src="img/perro.jpg" width="2000" height="1200">
+    <div class="texto-encima">¡GRACIAS POR APOYAR!</div>
+    <div class="centrado">Los donativos nos ayudan a cubrir los <br />
+      gastos de los peluditos (comida, veterinario,<br />
+      esterilizaciones, mantenimiento del lugar)</div>
+    <div class="centrado2">Recuerda que también se pueden <br />
+      hacer donativos en especie.<br /></div>
+
+    <!--imágenes de las tarjetas aceptadas, candadito y redes socuales -->
+    <div class="tarjetas">
+      <img
+        src="img/kisspng-mastercard-payment-visa-credit-card-emv-credit-card-visa-and-master-card-transparent-backg-5a77bb4a42a195.9274531015177961702729.jpg"
+         width=" 500" height="120">
+    </div>
+    <div class="candado">
+      <img src="img/padlock_77987.png" width="80 " height="100">
+    </div>
+    <div class="redes">
+      <img src="img/REDES.png" width="230 " height="120">
+    </div>
+
+
+    <main>
+      <!--Aquí comienza el formulario para la validación de la tarjeta   -->
+      <div class="datos">
+        <form>
+          <label for="Banco">Banco</label>
+          <!--Esta etiqueta nos ayuda a seleccionar una de las opciones que se desglosan -->
+          <select>
+            <option value="Bancomer">BBVA</option>
+            <option value="Banorte">BANORTE</option>
+            <option value="Scotiabank">SCOTIABANK</option>
+            <option value="Banamex">BANAMEX</option>
+            <option value="Santander">SANTANDER</option>
+            <option value="HSBC">HSBC</option>
+          </select><br />
+          <!--Esta etiqueta nos ayuda a seleccionar una de las opciones que se desglosan -->
+          <label for="cardNumber">Número de tarjeta</label>
+          <input type="text" pattern="[0-9\s]{16,16}" maxlength="16" id="cardNumber" placeholder="16 dígitos" class="validar">
+        <br>
+          <label for="Name">Nombre en la tarjeta</label>
+          <input type="text" id="Name" maxlength="50" autocomplete="off"><br />
+          <label for="Vigencia">Vigencia </label>
+          <input type="text" id="Vigencia" placeholder="mm/aaaa"><br />
+          <label for="Cvv">Código de Seguridad</label>
+          <input type="number" id="Cvv" placeholder="CVV"><br />
+        </form>
+        </div>
+
+      <div id="">
+        <p><button id="donar"> DONAR </button></p>
+      </div>
+   
+
+
+
+      <div id="volver">
+        <p><button id="volverUnico">VOLVER</button></p>
+      </div>
+
+      <div id="fin">
+        <p><button id="finalizar">FINALIZAR</button></p>
+      </div>
+
+      <footer></footer>
+      <script src="index.js" type="module"></script>
+    </main>
+    </div>
   </body>
+
 </html>
