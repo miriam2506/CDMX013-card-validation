@@ -9,9 +9,9 @@ const validator = {
         const cardNumberInverse = cardNumberArray.reverse();
         //convertirlo a string otra vez
         const cardNumberConvert = cardNumberInverse.join('');
-        for (let i = 0; i < cardNumberConvert.length; i++) {
+        let resultado = 0;
+              for (let i = 0; i < cardNumberConvert.length; i++) {
             console.log(cardNumberConvert.length)
-            let resultado = 0;
             if (i % 2 !== 0) {
                 //multiplicar por dos
                 const multiplicar = (cardNumberConvert[i] * 2);

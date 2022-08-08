@@ -159,15 +159,15 @@ input {
 #volver {
   box-shadow: 0px 0px 20px rgb(13, 102, 105) inset, 0px 0px 25px rgb(209, 209, 221);
   position: absolute;
-  top: 800px;
-  left: 1700px;
+  top: 1600px;
+  left: 3300px;
 }
 
 #fin {
   box-shadow: 0px 0px 20px rgb(13, 102, 105) inset, 0px 0px 25px rgb(209, 209, 221);
   position: absolute;
-  top: 800px;
-  left: 1860px;
+  top: 1600px;
+  left: 3700px;
 }
 
 
