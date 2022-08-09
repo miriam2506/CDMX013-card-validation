@@ -2,8 +2,8 @@
 
 ## Índice
 
-* [1. Adopciones peludas] (#1-Adopciones peludas)
-* [2. Prototipo] (#2-Prototipo)
+* [1. Adopciones peludas](#1-Adopciones peludas)
+* [2. Prototipo](#2-Prototipo)
 * [3. Feedback](#3-Feedback)
 * [Prototipo Final](#Prototipo)
 * [4. Usuario](#4-Usuario)
