@@ -2,13 +2,13 @@
 
 ## Índice
 
-* [1. Adopciones peludas](#1-Adopciones peludas)
-* [2. Prototipo](#2-Prototipo)
-* [3. Feedback](#3-Feedback)
-* [4. Prototipo Final](#4-Prototipo)
-* [5. Usuario](#5-Usuario)
-* [6. ¿Qué problema resuelve?](#6-¿Qué problema resuelve)
-* [7. Interfaz del usuario](#7-Interfaz del usuario)
+* [1.Adopciones](#1-Adopciones peludas)}
+* [2.Prototipo](#2-Prototipo)
+* [3.Feedback](#3-Feedback)
+* [4.Prototipo Final](#4-Prototipo)
+* [5.Usuario](#5-Usuario)
+* [6.Necesidades](#6-¿Qué problema resuelve)
+* [7.Interfaz](#7-Interfaz del usuario)
 
 ***
 
