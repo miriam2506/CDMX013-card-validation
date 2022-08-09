@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1.Adopciones](#1-Adopciones peludas)}
+* [1.Adopciones](#1-Adopciones peludas)
 * [2.Prototipo](#2-Prototipo)
 * [3.Feedback](#3-Feedback)
 * [4.Prototipo Final](#4-Prototipo)
