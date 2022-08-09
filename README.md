@@ -2,8 +2,8 @@
 
 ## Índice
 
-* [1. Adopciones peludas (card validation)] 
-* [2. Prototipo]
+* [1. Adopciones peludas (card validation)] #Adopciones peludas
+* [2. Prototipo] ##Prototipo
 * [3. Feedback]
 * [Prototipo Final]
 * [4. Usuario]
