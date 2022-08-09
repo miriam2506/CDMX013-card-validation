@@ -5,14 +5,14 @@
 * [1. Adopciones peludas](#1-Adopciones peludas)
 * [2. Prototipo](#2-Prototipo)
 * [3. Feedback](#3-Feedback)
-* [Prototipo Final](#Prototipo)
-* [4. Usuario](#4-Usuario)
-* [5. ¿Qué problema resuelve?](#5-¿Qué problema resuelve)
-* [6. Interfaz del usuario](#6-Interfaz del usuario)
+* [4. Prototipo Final](#4-Prototipo)
+* [5. Usuario](#5-Usuario)
+* [6. ¿Qué problema resuelve?](#6-¿Qué problema resuelve)
+* [7. Interfaz del usuario](#7-Interfaz del usuario)
 
 ***
 
-## 1-Adopciones peludas (card validation)
+## 1-Adopciones peludas 
 
 ![LOGO](https://user-images.githubusercontent.com/108847679/179627535-404f85fe-59dd-40fe-a748-a489478d895b.png)
 
@@ -40,15 +40,15 @@ en el diseño para que fuera más atractivo visualmente.
 
 Se cambió el color de la tipografía, tamaño y los datos que se pueden ingresar. 
 
-## Prototipo Final 
+## 4-Prototipo Final 
 ![DONACIÓN FINALIZADA](https://user-images.githubusercontent.com/108847679/179628060-3827cab6-7cfd-4240-8628-5c62accb8fde.jpg)
 ![TARJETA RECHAZADA](https://user-images.githubusercontent.com/108847679/179628073-dd9d4934-b2af-4fb1-8be3-eb282edae9cd.jpg)
 
-## 4-Usuario
+## 5-Usuario
 Las personas que están interesadas en apoyar a los animales, ayudar a los albergues o contribuir 
 de alguna manera con ellos. 
 
-## 5-¿Qué problema resuelve?
+## 6-¿Qué problema resuelve?
 Para los albergues de animales, es muy difícil tener los recursos para darle mantenimiento, 
 así como tener el personal para ir a recaudar fondos que ayudan a solventar diversos gastos.
 
@@ -59,7 +59,7 @@ que conozcan el lugar y les genere más confianza en caso de que quieran apoyar.
 También informa a donde van los recursos y sobre otro tipo de donaciones que pueden
 hacer para que el albergue pueda seguir en pie ayudando a más animalitos.
 
-## 6-Interfaz de usuario
+## 7-Interfaz de usuario
 
 La página funciona de la siguiente manera:
 
