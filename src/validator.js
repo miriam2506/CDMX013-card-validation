@@ -52,7 +52,6 @@ const validator = {
                 gato += "#"
             }
             return gato + guardar
-        
         }
     
     },
